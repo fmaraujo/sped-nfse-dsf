@@ -1,5 +1,5 @@
 {
-    "name": "nfephp-org/sped-nfse-dsf",
+    "name": "fmaraujo/sped-nfse-dsf",
     "type": "library",
     "description": "API para geração e comunicação de RPS e NFSe no padão DSF (IssDSF ou DSFNet).",
     "keywords": ["nfe","nfse","sped","nfephp"],
@@ -11,11 +11,16 @@
             "email": "linux.rlm@gmail.com.br",
             "homepage": "http://www.nfephp.org",
             "role": "Developer"
+        },
+        {
+            "name": "Fernando Araujo",
+            "email": "fernando@ipe.digital",
+            "homepage": "https://ipe.digital",
+            "role": "Developer"
         }
     ],
     "require": {
         "php" : ">= 7.1",
-        "nfephp-org/sped-common" : "^5.0",
         "justinrainbow/json-schema": "^5.2",
         "ext-zlib": "*",
         "ext-dom": "*",
